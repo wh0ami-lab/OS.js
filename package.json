@@ -27,7 +27,7 @@
     "test": "node osjs test",
     "build": "node osjs build",
     "run": "node osjs run",
-    "start": "npm run-script build; npm run-script run"
+    "start": "node osjs run"
   },
   "dependencies": {
     "app-module-path": "^2.2.0",

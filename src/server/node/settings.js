@@ -56,7 +56,7 @@ class Settings {
       DEBUG: argv.debug,
       HOSTNAME: argv.h || argv.hostname,
       ROOT: argv.r || argv.root,
-      PORT: argv.p || argv.port,
+      PORT: process.env.PORT || 8080,
       LOGLEVEL: argv.l || argv.loglevel,
       AUTH: argv.authenticator,
       STORAGE: argv.storage
