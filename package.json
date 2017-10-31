@@ -27,7 +27,7 @@
     "test": "node osjs test",
     "build": "node osjs build",
     "run": "node osjs run",
-    "start": "node osjs run"
+    "start": "npm install osjs-build && node osjs build && node osjs run"
   },
   "dependencies": {
     "app-module-path": "^2.2.0",
@@ -55,6 +55,7 @@
     "session-file-store": "^1.1.2",
     "simplejsonconf": "^1.0.7",
     "unzip-stream": "^0.1.2",
+    "osjs-build": "^1.0.8",
     "ws": "^3.1.0"
   },
   "devDependencies": {
